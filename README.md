@@ -4,6 +4,6 @@
     http://163.239.76.204:3000/update?key=kim&value=sukhwan
     
 #   Get data as much as you want.
-##    http://my_ip:port/get?count=your_count
+###    http://my_ip:port/get?count=your_count
     ex) If you want 3 recent data.
     http://163.239.76.204:3000/get?count=3
