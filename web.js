@@ -17,8 +17,7 @@ app.get('/update', function(req,res) {
 app.get('/get', function(req,res) {
 	var arr = fs.readFileSync('log.txt').toString().split("\n"); 
 	var result = "";
-	var count = parseInt(Object.values(req.query));
-	for(var i = arr.length-count-1 ; i < arr.length ; i++){
+	for(var i = 0 ; i < arr.length ; i++){
 		console.log(arr[i]);
 		result = result + arr[i];	
 		result = result + '<br>';	
